@@ -34,8 +34,8 @@ You should be able to complete in 45 - 60 minutes.
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_24EE0666F224CD27E72F26041F4521C1DF0F229C7CDD0C52E547CB024B22846E_1536802926926_Hello1.png)
 
 2. Click on “Starter Kits” in the left hand menu. Then click on the “Node Red Starter” option for the boilerplate. The boilerplate comes with:
-* a Cloudant database instance to store your flow configuration
-* a collection of nodes that make it easy to access various IBM Cloud services, including Watson, IoT and Blockchain services to name just a few
+* a Cloudant database instance to store your flow configuration.
+* a collection of nodes that make it easy to access various IBM Cloud services, including Watson, IoT and Blockchain services to name just a few.
 3. Write a name for your Node Red Boilerplate. You can write “node red” somewhere in the title, so you will not confuse with your other future IBM Cloud applications.
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_24EE0666F224CD27E72F26041F4521C1DF0F229C7CDD0C52E547CB024B22846E_1536803109239_Screen+Shot+2018-09-12+at+9.44.16+PM.png)
 
