@@ -18,8 +18,7 @@ After this tutorial, you will be able to:
 
 * Instantiate a Node Red Starter Kit and a Watson Cloud service (Natural Language Understanding API) on IBM's Cloud
 * Bind a Watson service to a Node Red application
-* Send a news article URL to the NLU API, and retrieve a table of the response in a table containing the concepts,	entities, keywords,
-categories, sentiment, emotion, relations, and semantic roles
+* Send a news article URL to the NLU API, and retrieve a table of the response in a table containing the concepts,	entities, keywords,categories, sentiment, emotion, relations, and semantic roles
 
 ### Prerequisites
 
@@ -44,7 +43,7 @@ services, including Watson, IoT and Blockchain services to name just a few
 red” somewhere in the title, so you will not confuse with your other
 future IBM Cloud applications.
 4. It will take a few minutes (5–15 minutes) to instantiate. Once it is
-nished instantiating, you will see the green circle beside the name of
+finished instantiating, you will see the green circle beside the name of
 your app where it will state “running.”
 
 Click on “Visit App URL” to get to your new Node Red boilerplate.
@@ -52,12 +51,8 @@ Click on “Visit App URL” to get to your new Node Red boilerplate.
 5. Once you click on Visit App URL, you will be taken to your new Node
 Red app with a few set up instructions. You can choose to add a
 username or password, or leave unsecured. It is up to you.
-
-
 6. A few other options are available, just keep clicking “next” until you
 get to this final page. Click “Go to your Node-RED flow editor.”
-
-
 7. You will see your first flow. You are ready to begin your first Node
 Red flow. Congrats!
 
