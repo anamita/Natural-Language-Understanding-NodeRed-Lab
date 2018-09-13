@@ -22,8 +22,8 @@ After this tutorial, you will be able to:
 * Send a news article URL to the NLU API, and retrieve a table of the response in a table containing the concepts, entities, keywords,categories, sentiment, emotion, relations, and semantic roles
 
 ### Prerequisites
-Create an [IBM Cloud Account](https://console.bluemix.net/).
-Log into [IBM Cloud](https://console.bluemix.net/login).
+* Create an [IBM Cloud Account](https://console.bluemix.net/).
+* Log into [IBM Cloud](https://console.bluemix.net/login).
 
 ### Estimated Time
 You should be able to complete in 45 - 60 minutes.
