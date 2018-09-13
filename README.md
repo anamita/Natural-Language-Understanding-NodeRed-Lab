@@ -56,5 +56,53 @@ A few other options are available, just keep clicking “next” until you get t
 6. You will see your first flow. You are ready to begin your first Node Red flow. Congrats!
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_24EE0666F224CD27E72F26041F4521C1DF0F229C7CDD0C52E547CB024B22846E_1536803441275_Screen+Shot+2018-09-12+at+9.47.20+PM.png)
 
+### Step 2 - Add Natural Language Understanding Service in IBM Cloud
+
+1. Click on the **Catalog** link in the top-right of the IBM Cloud Dashboard. Under the AI section, click on the **Natural Language Understanding** tile.
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536804959347_Screen+Shot+2018-09-12+at+10.15.19+PM.png)
+
+1. You can optionally give the service a custom name or leave it as the one given. Click **Create**.
+2. Click on **Connections** in the menu on the left.
+3. Click **Create connection** on the right. 
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536805456519_Screen+Shot+2018-09-12+at+10.23.50+PM.png)
+
+4. Click **Connect** next to the Node-RED application you created earlier.
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536805617386_Screen+Shot+2018-09-12+at+10.26.18+PM.png)
+
+5. IBM Cloud will prompt to restage the application. Click on **Restage**. The application will restart and include the new service credentials in the environment.
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536806011226_Screen+Shot+2018-09-12+at+10.33.06+PM.png)
+
+6. When the application has finished restaging, open the Node-RED Flow Editor. If you already have Node-RED open, refresh the page.
+
+### Step 3 - Analyze a News Article in Node-RED**
+
+The Watson Natural Language Understanding service takes either a body of text or a publicly-accessible URL to content which the service can analyze. In this section, we will analyze a news article that is accessible via an URL. You can also choose to analyze other URLs that contain a body of text.
+
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536806457518_Screen+Shot+2018-09-12+at+10.39.41+PM.png)
+
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536806931827_Screen+Shot+2018-09-12+at+10.48.27+PM.png)
+
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536806986130_Screen+Shot+2018-09-12+at+10.49.21+PM.png)
+
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536807062869_Screen+Shot+2018-09-12+at+10.50.12+PM.png)
+
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536807319985_Screen+Shot+2018-09-12+at+10.54.53+PM.png)
+
+Get the code snippet here: ibm.biz/BdiBpU
+
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536807372581_Screen+Shot+2018-09-12+at+10.55.53+PM.png)
+
+10. Open a browser tab and visit your application’s endpoint, passing in the URL to the content:
+    http://<<MY-APP>>.mybluemix.net/analyze?url=<<URL-TO-STORY>>
+- Replace <> with the host of the Node-RED application you chose to name your app.
+- Replace <> with the URL of the content.
+11. Depending on the content located at the URL, you may see a list of attributes including concepts, entities, keywords, categories, sentiment, emotion, relations, semantic roles and more mentioned within the text.
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536807797612_Screen+Shot+2018-09-12+at+11.01.00+PM.png)
+
+12.  To  see the JSON representation of the content insert format=json in the url query string.
+![](https://d2mxuefqeaa7sj.cloudfront.net/s_1AEB3DBAF25785993FDC403B0E2B8B399A989E775A0079D55BFA837929CCB61B_1536808333678_Screen+Shot+2018-09-12+at+11.11.42+PM.png)
+
+13. Return to Step #3 and experiment by disabling some of the features to see how the results change. Try analyzing other URLs and see what results are returned.
+
 
 
