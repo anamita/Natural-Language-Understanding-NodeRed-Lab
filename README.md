@@ -3,7 +3,9 @@
 ## Hands-On Lab
 
 JeanCarl Bisson | jbisson@us.ibm.com | @dothewww
+
 Helen Lam | helen.lam@ibm.com | @helennnsays
+
 Anamita Guha | anamita.guha@ibm.com | @anamitag
 
 **Introduction**
