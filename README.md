@@ -1,6 +1,6 @@
-# Natural Language Understanding in Node-RED
+# Session - 101 Lab: Use the Watson Natural Language Understanding Service in Your App in Less than 15 Minutes
 
-## Hands-On Lab
+## Hands-On Lab - THINK 2019
 
 JeanCarl Bisson | jbisson@us.ibm.com | @dothewww
 
