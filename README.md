@@ -1,4 +1,4 @@
-# Session - 101 Lab: Use the Watson Natural Language Understanding Service in Your App in Less than 15 Minutes
+# Session - 101 Lab: Use the Watson Natural Language Understanding Service in Your App
 
 ## Hands-On Lab - THINK 2019
 
