@@ -2,13 +2,17 @@
 
 ## Hands-On Lab - THINK 2019
 
+Anamita Guha | anamita.guha@ibm.com | @anamitag
+
+Horea Porutiu | horea.porutiu@ibm.com | @horeaporutiu
+
+---
+Orginal Code from:
+
 JeanCarl Bisson | jbisson@us.ibm.com | @dothewww
 
 Helen Lam | helen.lam@ibm.com | @helennnsays
 
-Anamita Guha | anamita.guha@ibm.com | @anamitag
-
-Horea Porutiu | horea.porutiu@ibm.com | @horeaporutiu
 
 ### Introduction
 
