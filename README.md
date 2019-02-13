@@ -8,6 +8,8 @@ Helen Lam | helen.lam@ibm.com | @helennnsays
 
 Anamita Guha | anamita.guha@ibm.com | @anamitag
 
+Horea Porutiu | horea.porutiu@ibm.com | @horeaporutiu
+
 ### Introduction
 
 The Natural Language Understanding service analyzes text to extract meta-data from content such as concepts, entities, keywords, categories, sentiment, emotion, relations, semantic roles, using natural language understanding. This tutorial uses the Node-RED boilerplate in IBM Cloud with the Natural Language Understanding service found under the **Starter Kit** section of the IBM Cloud
