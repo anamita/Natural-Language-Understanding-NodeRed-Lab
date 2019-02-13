@@ -31,7 +31,7 @@ After this tutorial, you will be able to:
 * Log into [IBM Cloud](https://console.bluemix.net/login).
 
 ### Estimated Time
-You should be able to complete in 45 - 60 minutes.
+You should be able to complete in 30 - 45 minutes.
 
 ### Step 1 - Set Up Your Node Red Boilerplate**
 
